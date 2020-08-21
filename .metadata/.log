@@ -90,3 +90,32 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:22:09.564
 !MESSAGE executing callback sts4.classpath.GYtBsaje SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:42:20.277
+!MESSAGE Preparing classpath changed notification jenkins-docker
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:42:20.367
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:42:20.388
+!MESSAGE buffering callback sts4.classpath.GYtBsaje jenkins-docker true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:42:20.398
+!MESSAGE executing callback sts4.classpath.GYtBsaje 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-21 17:42:20.473
+!MESSAGE executing callback sts4.classpath.GYtBsaje SUCCESS [done]
+
+!ENTRY org.eclipse.ui.ide 4 4 2020-08-21 17:42:56.293
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2020-08-21 17:42:56.304
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2020-08-21 17:42:56.304
+!MESSAGE The project description file (.project) for 'jenkins-docker' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.ui 2 2 2020-08-21 17:42:56.519
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-08-21 17:42:58.112
+!MESSAGE The workspace will exit with unsaved changes in this session.
